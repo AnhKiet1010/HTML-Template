@@ -1,0 +1,187 @@
+@charset "UTF-8";
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #242424;
+    color: #ffffff;
+}
+
+body {
+    min-width: 1000px;
+    position: relative;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+    transition: all .2s;
+}
+
+a:hover {
+    opacity: .6;
+}
+
+.txt_link, .txt_link a {
+    color: #5680b2;
+}
+
+a.txt_link:hover, .txt_link a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+a.txt_link[target="_blank"], .txt_link a[target="_blank"] {
+    /* background: url(/images/common/icn_blank.png) no-repeat left center; */
+    background-size: 11px auto;
+    padding-left: 14px;
+}
+
+.container {
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sub_container {
+    width: 714px;
+}
+
+.sp_only {
+    display: none !important;
+}
+
+.cjk {
+    font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+.mt_10 {
+    margin-top: 10px;
+}
+
+.mt_20 {
+    margin-top: 20px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+.mt_80 {
+    margin-top: 80px;
+}
+
+.mb_10 {
+    margin-bottom: 10px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_60 {
+    margin-bottom: 60px;
+}
+
+.mb_80 {
+    margin-bottom: 80px;
+}
+
+.txt_c {
+    text-align: center;
+}
+
+.txt_l {
+    text-align: left;
+}
+
+.txt_r {
+    text-align: right;
+}
+
+.fl_l {
+    float: left;
+}
+
+.fl_r {
+    float: right;
+}
+
+.fsize_10 {
+    font-size: 10px;
+}
+
+.fsize_14 {
+    font-size: 14px;
+}
+
+.fsize_16 {
+    font-size: 16px;
+}
+
+.vel_algin_middle {
+    vertical-align: middle !important;
+}
+
+@media screen and (max-width: 640px) {
+    html, body, input, textarea, select, button {
+        font-size: 11px;
+    }
+    body {
+        min-width: 100%;
+    }
+    a:hover {
+        opacity: 1;
+    }
+    .container {
+        width: 100%;
+    }
+    .sub_container {
+        width: 100%;
+    }
+    .sp_container {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .pc_only {
+        display: none !important;
+    }
+    .sp_only {
+        display: block !important;
+    }
+    .mt_20 {
+        margin-top: 10px;
+    }
+    .mt_40 {
+        margin-top: 20px;
+    }
+    .mt_60 {
+        margin-top: 30px;
+    }
+    .mt_80 {
+        margin-top: 40px;
+    }
+    .mb_20 {
+        margin-bottom: 10px;
+    }
+    .mb_40 {
+        margin-bottom: 20px;
+    }
+    .mb_60 {
+        margin-bottom: 30px;
+    }
+    .mb_80 {
+        margin-bottom: 40px;
+    }
+}

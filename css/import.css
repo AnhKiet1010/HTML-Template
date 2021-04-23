@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* --------- 共通css --------- */
+@import "/css/reset.css";
+@import "/css/common.css";
+@import "/css/index.css";
+@import "/css/scroll-hint.css";
+@import "/common_parts/header/css/header.css";
+@import "/common_parts/footer/css/footer.css";

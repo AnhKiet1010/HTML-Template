@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+
+    <header>
+        <div class="header_line pc_only">
+            <div class="header_logo_btn">
+                <a href="/">
+                    <img src="/common_parts/header/images/logo_hd_header.png" alt="クラブジャイブホームページ">
+                </a>
+                <div class="header_btn">
+                    <input type="checkbox" id="switch_darkmode">
+                    <label class="switch_darkmode_btn" onclick="switchDarkmode()" for="switch_darkmode">
+                        <div class="toggle_darkmode"></div>
+                        <div class="darkmode_status_ttl">
+                            <p class="lightmode_sts">ライト</p>
+                            <p class="darkmode_sts">ダーク</p>
+                        </div>
+                    </label>
+                    <div class="sns_btn_area">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="insta_btn" src="/common_parts/header/images/icn_hd_insta.svg" alt="インスタグラム">
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img class="twitter_btn" src="/common_parts/header/images/icn_hd_twitter.svg" alt="ツイッター">
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img class="youtube_btn" src="/common_parts/header/images/icn_hd_youtube.svg" alt="ユーチューブ">
+                        </a>
+                    </div>
+                    <!-- <a class="regist_btn" href="#">
+                        <img src="/common_parts/header/images/icn_hd_user.svg" alt="アイコン">
+                        <span>会員登録</span>
+                    </a> -->
+                </div>
+            </div>
+            <div class="nav_link_area">
+                <!--  <div class="separate_line"></div> -->
+                <!-- <button class="toggle_darkmode_btn">Toggle Dark-Mode</button> -->
+                 <div class="separate_line"></div>
+                <a href="/">ホーム</a>
+                <div class="separate_line"></div>
+                <a href="/about/index.html">ClubJIVEとは</a>
+                 <div class="separate_line"></div>
+                <a href="#">新着情報</a>
+                 <div class="separate_line"></div>
+                <a href="/IT/index.html">IT</a>
+                 <div class="separate_line"></div>
+                <a href="/agriculture/index.html">農業</a>
+                 <div class="separate_line"></div>
+                <a href="/self_care/index.html">体操</a>
+                 <div class="separate_line"></div>
+                <a href="/capital/index.html">資産管理</a>
+                 <div class="separate_line"></div>
+                <!-- <a href="#">
+                    <span class="question_icn">?</span>
+                    よくある質問
+                </a> -->
+                <!--  <div class="separate_line"></div> -->
+            </div>
+        </div>
+        <div class="header_line_sp sp_only">
+            <a href="/">
+                <img src="/common_parts/header/images/logo_top_title.svg" alt="クラブジャイブホームページ">
+            </a>
+            <div class="header_btn">
+                <div class="sns_btn_area">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img class="insta_btn" src="/common_parts/header/images/icn_hd_insta.svg" alt="インスタグラム">
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img class="twitter_btn" src="/common_parts/header/images/icn_hd_twitter.svg" alt="ツイッター">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="youtube_btn" src="/common_parts/header/images/icn_hd_youtube.svg" alt="ユーチューブ">
+                    </a>
+                    <a class="menu_btn cjk" href="#" onclick='openNav();return false;'>
+                        <img src="/common_parts/header/images/icn_menu.svg" alt="アイコン">
+                        MENU
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="overlay sp_only" id="myNav">
+        <div class="overlay_header">
+            <input type="checkbox" id="switch_darkmode_sp">
+            <label class="switch_darkmode_btn" onclick="switchDarkmode()" for="switch_darkmode_sp">
+                <div class="toggle_darkmode"></div>
+                <div class="darkmode_status_ttl">
+                    <p class="lightmode_sts">ライト</p>
+                    <p class="darkmode_sts">ダーク</p>
+                </div>
+            </label>
+            <div href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                <div><span><img src="../../images/common/icn_close.svg" alt="アイコン"></span></div>
+            </div>
+        </div>
+        <div class="header_nav_area scroll_area">
+            <ul class="header_nav">
+                <li class="nav_item">
+                    <a class="nav_btn black_nav_btn" href="/">
+                        <div>
+                            ホーム
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn yellow_nav_btn" href="/about/index.html">
+                        <div>
+                            ClubJIVEとは
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn" href="#">
+                        <div>
+                            新着情報
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn" href="/IT/index.html">
+                        <div>
+                            IT
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn" href="/agriculture/index.html">
+                        <div>
+                            農業
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn" href="/self_care/index.html">
+                        <div>
+                            体操
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn" href="/capital/index.html">
+                        <div>
+                            資産管理
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <!-- <li class="nav_item">
+                    <a class="nav_btn" href="#">
+                        <div>
+                            <span class="question_icn">?</span>よくある質問
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li> -->
+                <!-- <li class="nav_item">
+                    <a class="nav_btn yellow_nav_btn" href="#">
+                        <div>
+                            <img src="/common_parts/header/images/icn_hd_user.svg" alt="アイコン">
+                            会員登録
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav_item">
+                    <a class="nav_btn yellow_nav_btn" href="#">
+                        <div>
+                            お申し込みはこちら
+                        </div>
+                        <div>
+                            <img src="/images/common/icn_link_mark_white.svg" alt="アイコン">
+                        </div>
+                    </a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

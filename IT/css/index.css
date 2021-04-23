@@ -1,0 +1,75 @@
+
+/* --------- PAGE INNER ----------- */
+
+.page_ttl_inner {
+    background-color: #B2E0F8;
+}
+
+.page_ttl_inner_dark {
+    background-color: #0985C6;
+}
+
+.page_name_icn {
+    background-color: #0985C6;
+    color: #fff;
+}
+
+.page_name_icn_dark {
+    background-color: #fff;
+    color: #0985C6;
+}
+
+.page_name_txt {
+    color: #0985C6;
+}
+
+.page_name_txt_dark {
+    color: #fff;
+}
+
+.page_ttl_right {
+    margin-top: 60px;
+}
+
+/* --------- LEAD TEXT ----------- */
+
+.lead_txt {
+    color: #0985C6;
+}
+
+/* --------- LIST BRAND CARDS ----------- */
+
+.card_txt .card_txt_ttl {
+    color: #0985C6;
+}
+
+.detail_btn {
+    background-color: #0985C6;
+    box-shadow: 5px 5px 0px #69B7E0;
+}
+
+.detail_btn_dark {
+    box-shadow: 5px 5px 0px #0D4D6E;
+}
+
+/* --------- TABS ----------- */
+
+.page_tab_area {
+    border-bottom: 5px solid #0985C6;
+}
+
+.page_tag {
+    background-color: #E4F1F8;
+    color: #0985C6;
+    width: 200px;
+}
+
+.page_tag_dark {
+    background-color: #294071;
+    color: #53669B;
+}
+
+.page_tag.active {
+    background-color: #0985C6 !important;
+    color: #fff !important;
+}

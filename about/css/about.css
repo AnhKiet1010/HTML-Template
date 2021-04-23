@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* --------- クラブジャイブとは？ (About) --------- */
+
+body {
+    overflow-x: hidden;
+}
+
+.pankuzu ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.pankuzu li {
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.pankuzu li > a {
+    font-size: 18px;
+    line-height: 28px;
+    color: #00a7ff;
+}
+
+.pankuzu_active {
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.page_title_area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.page_title_area img:first-of-type {
+    height: 133px;
+    width: auto;
+}
+
+.page_title_area img:nth-of-type(2) {
+    height: 196px;
+    width: auto;
+}
+
+.about_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.about_title label {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.about_title span {
+    font-size: 35px;
+    line-height: 51px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.yellow_lbl {
+    display: inline;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 61%, rgba(249, 227, 59, 1) 50%, rgba(249, 227, 59, 1) 100%);
+    background-size: 88% 96%;
+}
+
+.about_explain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 51px;
+}
+
+.about_explain label {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.about_explain span {
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 4px;
+}
+
+.about_explain_line {
+    width: 100%;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #f9e33b;
+    color: #000000 !important;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: 17.5px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 83px;
+}
+
+.about_explain_line > img {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.about_activity {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+.about_activity div:first-of-type {
+    width: 505px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_activity div:first-of-type > label {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.about_activity div:first-of-type > p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about_activity div:first-of-type > p:first-of-type {
+    margin-bottom: 43px;
+}
+
+.about_activity > img {
+    max-width: 480px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.about_intro {
+    width: auto;
+    height: 258px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 71px 120px;
+}
+
+.about_intro_dark {
+    background-color: #525252 !important;
+}
+
+.about_intro picture > img {
+    height: 180px;
+    width: 180px;
+    min-height: 180px;
+    min-width: 180px;
+}
+
+.about_intro > div {
+    width: auto;
+    margin: -6px 0 0 31px;
+}
+
+.about_intro > div label:first-of-type {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.name_ttl {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.name_ttl span {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-left: 29px;
+}
+
+.about_intro > div > p {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+
+@media screen and (max-width: 640px) {
+    .page_title_area {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 55px;
+    }
+
+    .page_title_area img:first-of-type {
+        width: 295px;
+        height: auto;
+        align-self: center;
+        margin: 19px 0;
+    }
+
+    .page_title_area img:nth-of-type(2) {
+        width: 306px;
+        height: auto;
+        align-self: center;
+    }
+
+    .about_title {
+        margin-bottom: 23px;
+    }
+
+    .about_title label {
+        font-size: 35px;
+        line-height: 51px;
+    }
+
+    .about_title span {
+        font-size: 20px;
+        line-height: 29px;
+        margin-left: 1px;
+    }
+
+    .about_explain {
+        margin-bottom: 42px;
+    }
+
+    .about_explain span {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about_explain label {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about_explain_line {
+        height: 253px;
+        font-size: 30px;
+        line-height: 60px;
+        letter-spacing: 0;
+        margin-bottom: 40px;
+    }
+
+    .about_activity {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 65px;
+        position: unset;
+    }
+
+    .about_activity > picture >  img {
+        max-width: 325px;
+        position: unset;
+        top: unset;
+        right: unset;
+        margin-bottom: 22px;
+    }
+
+    .about_activity div:first-of-type {
+        padding: 0 15px;
+        width: auto;
+    }
+
+    .about_activity div:first-of-type > label {
+        align-self: center;
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 22px;
+    }
+
+    .about_intro {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 26px 32px;
+        margin: 0 15px;
+    }
+
+    .about_intro > div:first-of-type {
+        display: flex;
+        flex-direction: row;
+        margin: -40px 0 26px -10px;
+    }
+
+    .about_intro > div:first-of-type label:first-of-type {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 43px;
+    }
+
+    .name_ttl {
+        display: block;
+        font-size: 24px;
+        line-height: 31px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .about_intro > div:first-of-type span {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .about_intro > div:first-of-type > div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        margin-left: 19px;
+    }
+
+    .about_intro picture > img {
+        height: 150;
+        width: 150;
+        min-height: 150;
+        min-width: 150;
+    }
+
+    .about_intro > p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+}
